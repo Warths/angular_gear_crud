@@ -180,7 +180,7 @@ export class ArticleSetComponent implements OnInit {
     "price": 699,
     "url": "https://www.thomann.de/fr/hagstrom_fantomen_white.htm?partner_id=38841",
     "is_affiliate": true,
-    "img": "https://cdn.shopify.com/s/files/1/0857/8274/products/IMG_E5358_bbcddd4f-ed04-4134-a64a-0787f51a53e0_1024x1024.jpg?v=1624979046",
+    "img": "https://angledbox.com/images/source/Hagstrom_Guitars_and_Bass_s/HagstromFantomenWhiteincCase-7_-_Copy.jpg",
     "description": "La guitare emblématique de Ghost ! Elle est utilisée pour des musiques accordées plus grave que la moyenne. Elle est accordée en D standard.",
     "keywords": "guitare ghost",
     "category": "music"
@@ -202,7 +202,7 @@ export class ArticleSetComponent implements OnInit {
     "price": 529,
     "url": "https://www.woodbrass.com/guitares-electriques-metal-moderne-schecter-s-ii-omen-extreme-black-cherry-p235383.html?gclid=CjwKCAjw7--KBhAMEiwAxfpkWBjLQ9lL0iEgM0X-sM-Xq1LW3MIVjhOgv0mkSwX-vREENiF5kjGQihoCMYsQAvD_BwE",
     "is_affiliate": false,
-    "img": "https://www.schecterguitars.com/images/store/product/OMEN%20EXTREME%20S-II%20BCH%20LAYING%20FULL.jpg",
+    "img": "https://images.reverb.com/image/upload/s--C081giKw--/f_auto,t_large/v1551587927/aasjvygtljgtrm3sbj4s.jpg",
     "description": "Une guitare bien méchante spécialisée dans le métal. Convient bien pour Avenged Sevenfold, Killswitch Engage etc. Elle est accordée en Drop D.",
     "keywords": "guitare foo fighters",
     "category": "music"
