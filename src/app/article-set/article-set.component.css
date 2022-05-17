@@ -1,0 +1,10 @@
+:host {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:stretch;
+}
+
+app-article-card {
+    max-width:420px
+}

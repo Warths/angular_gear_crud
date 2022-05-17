@@ -1,1 +1,27 @@
-<p>{{ article }}</p>
+<div class="article-wrapper h-100">
+    <article class="d-flex bg-white flex-column h-100 w-100 rounded-3">
+        <div class="p-4">
+            <h2 class="fs-4">{{article.name}}</h2>
+            <h3 class="fs-5 text-uppercase">{{article.brand}}</h3>
+        </div>
+        <div class="overflow-hidden illustration d-flex align-items-center">
+            <img class="w-100" [alt]="'Illustration de ' + article.name" [src]="article.img" />
+        </div>
+        <p class="p-4">{{article.description}}</p>
+
+        <div class="mt-auto">
+            <div class="product-affiliation py-4 d-flex justify-content-around align-items-center">
+                <span class="fs-3">{{article.price}}€</span>
+                <a *ngIf="article.url else elseBlock" 
+                    [href]="article.url" target="_blank" class="d-flex rounded-3 text-white affiliate-button text-decoration-none text-center align-items-center justify-content-around">
+                    <span>Lien affilié Amazon</span>
+                </a>
+                <ng-template #elseBlock>
+                    <div class="unavailable d-flex rounded-3 text-white affiliate-button text-decoration-none text-center align-items-center justify-content-around">
+                        <span>Lien indisponible</span>
+                    </div>
+                </ng-template>
+            </div>
+        </div>
+    </article>
+</div>

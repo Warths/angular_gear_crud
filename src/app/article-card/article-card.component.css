@@ -1,0 +1,33 @@
+.illustration {
+    height: 250px;
+}
+
+.product-affiliation {
+    height:120px;
+}
+
+.affiliate-button {
+    height: 70px;
+    width: 150px;
+    background-color: steelblue;
+    transition: background 500ms;
+}
+
+.affiliate-button:hover {
+    background: rgb(91, 169, 233);
+}
+
+.unavailable {
+    background-color: gray;
+}
+
+img {
+    object-fit: cover;
+}
+
+h3 {
+    color: gray;
+}
+
+
+
