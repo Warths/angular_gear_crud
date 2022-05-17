@@ -1,0 +1,10 @@
+<header>
+    <div class="d-flex w-100">
+        <app-header-button></app-header-button>
+        <app-header-searchbar class="m-2"></app-header-searchbar>
+        <h1 class="m-auto text-white">Warths Gear</h1>
+        <app-header-link *ngFor="let e of menu" [class]="e.classes" [text]="e.text" [target]="e.target">
+        </app-header-link>
+    </div>
+</header>
+<app-header-searchbar-full class="m-auto mb-2"></app-header-searchbar-full>

@@ -1,0 +1,9 @@
+<a *ngIf="innerUrl; else outerUrl" [routerLink]="target">
+    {{ text }}
+</a> 
+
+<ng-template #outerUrl>
+    <a [href]="target">
+        {{ text }}
+    </a> 
+</ng-template>

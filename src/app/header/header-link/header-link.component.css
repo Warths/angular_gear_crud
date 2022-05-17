@@ -1,0 +1,14 @@
+a {
+    line-height: 50px;
+    color: white;
+    transition: filter 300ms ease-out;
+    text-decoration: none;
+    width: 120px;
+    padding: 0 10px;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    background:rgb(91,169,233);
+}

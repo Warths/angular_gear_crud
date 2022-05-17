@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    align-self: stretch;
+    max-width: 300px;
+    width: 100%;
+}
+
+input {
+    max-width: 300px;
+    width:100%;
+    border: none;
+    border-radius: 10px;
+    text-indent: 15px;
+}      
