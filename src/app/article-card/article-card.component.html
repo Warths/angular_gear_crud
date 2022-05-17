@@ -7,10 +7,10 @@
         <div class="overflow-hidden illustration d-flex align-items-center">
             <img class="w-100" [alt]="'Illustration de ' + article.name" [src]="article.img" />
         </div>
-        <p class="p-4">{{article.description}}</p>
+        <p class="p-4 m-0">{{article.description}}</p>
 
         <div class="mt-auto">
-            <div class="product-affiliation py-4 d-flex justify-content-around align-items-center">
+            <div class="product-affiliation my-3 d-flex justify-content-around align-items-center">
                 <span class="fs-3">{{article.price}}€</span>
                 <a *ngIf="article.url else elseBlock" 
                     [href]="article.url" target="_blank" class="d-flex rounded-3 text-white affiliate-button text-decoration-none text-center align-items-center justify-content-around">

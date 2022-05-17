@@ -3,7 +3,7 @@
 }
 
 .product-affiliation {
-    height:120px;
+    height:70px;
 }
 
 .affiliate-button {
@@ -13,7 +13,7 @@
     transition: background 500ms;
 }
 
-.affiliate-button:hover {
+.affiliate-button:not(.unavailable):hover {
     background: rgb(91, 169, 233);
 }
 
